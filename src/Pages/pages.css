@@ -1,0 +1,692 @@
+.section-default {
+    height: 100vh;
+    max-width: 100%;
+    color: var(--primary-color);
+    background-color: var(--background);
+    overflow: auto;
+    padding-right: 15px;
+}
+
+.container-fluid {
+    margin: 0 10px;
+}
+
+.form-control {
+    color: var(--primary-color);
+    background-color: var(--background);
+    border: 1px solid var(--primary-color);
+    margin: 10px 0;
+}
+
+.form-sign {
+    width: 330px;
+    margin: auto;
+}
+
+.floating-label {
+    font-weight: bold;
+}
+
+/*home*/
+.div-home {
+    margin-top: 90px;
+}
+
+/*new-user*/
+.btn-form-new-user {
+    width: 45%;
+    margin: 0 6px;
+}
+
+/*navbar*/
+#navbar {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+/*sheet*/
+#section-new-sheet {
+    padding: 5px;
+}
+
+#section-new-sheet::-webkit-scrollbar {
+    display: none;
+}
+
+#section-new-sheet label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.div-new-sheet {
+    margin: 90px auto !important;
+    border: 1px solid var(--primary-color);
+    border-radius: 15px;
+    max-width: 1340px;
+}
+
+.div-dado {
+    display: flex;
+    font-size: 10px;
+    margin: 20px auto;
+    padding: 0;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+    height: 70px;
+    width: 70px;
+}
+
+.div-grupo {
+    background-color: var(--secondary-color);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+}
+
+.col-new-sheet {
+    padding: 10px;
+}
+
+.col-grupo-rolar-dados {
+    border: 1px solid var(--primary-color);
+    margin-bottom: 10px;
+}
+
+.col-atributos {
+
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    min-width: 100px
+}
+
+.col-img-collapse {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: end;
+}
+
+.col-img-collapse-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.col-defesa {
+    text-align: center;
+    vertical-align: center;
+}
+
+.col-pericias-header {
+    text-align: center;
+    height: 35px !important;
+    width: 60px !important;
+    padding: 5px 0 5px 5px;
+}
+
+.col-pericia-rolar-dados:hover {
+    background-color: #292929;
+}
+
+.col-table-treino {
+    background-color: red;
+}
+
+.col-pericias-treino {
+    text-align: center;
+    width: 60px;
+}
+
+.col-pericias-nome {
+    text-align: start;
+}
+
+.col-pericias-total {
+    text-align: center;
+}
+
+.col-pericias-outros {
+    width: 65px;
+}
+
+.row-rolar-dados {
+    margin: 6px auto;
+}
+
+.row-atr-mod {
+    padding: 0 12px 0 12px;
+}
+
+.row-grupo-collapse {
+    height: 50px;
+}
+
+.row-valores {
+    padding: 0 12px;
+}
+
+.row-pontos {
+    border: 1px solid var(--primary-color);
+    margin: 0;
+    padding: 10px 0 10px 0;
+}
+
+.row-ataque, .row-magia, .row-item, .row-habilidade {
+    border: 1px solid var(--primary-color);
+    margin: 0;
+    padding: 10px 0;
+}
+
+.row-ataque-valores, .row-magia-valores, .row-item-valores {
+    margin: 0;
+    padding: 0;
+}
+
+.row-resistencia-magia, .lbl-resistencia-magia {
+    padding: 0;
+    margin: 0 12px;
+}
+
+.row-defesa {
+    border: 1px solid var(--primary-color);
+    margin: 0;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.row-defesa-soma {
+    padding: 10px;
+    margin: 10px;
+}
+
+.row-arm-esc {
+    border: 1px solid var(--primary-color);
+    margin: 0;
+    padding: 10px 0 10px 0;
+    display: flex;
+    justify-content: center
+}
+
+.row-dinheiro-total {
+    padding-left: 24px;
+}
+
+.row-peso-total {
+    display: flex;
+    justify-content: end;
+    padding-right: 24px;
+}
+
+.row-pericias {
+    margin: 0;
+    border: 1px solid var(--primary-color);
+}
+
+.row-pericias-header {
+    border: none;
+}
+
+.row-adicionar-habilidade {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.lbl-dado {
+    margin: auto;
+}
+
+.lbl-titulo {
+    color: white;
+    margin: auto 0 auto 12px;
+}
+
+.lbl-titulo2 {
+    color: white;
+}
+
+.lbl-nenhum-ataque, .lbl-nenhuma-magia, .lbl-nenhum-item, .lbl-nenhuma-habilidade {
+    color: var(--background);
+    background-color: var(--primary-color);
+    width: 100%;
+    margin: 8px 0;
+    padding: 0;
+}
+
+.lbl-resistencia-magia-valor, .lbl-defesa-valor {
+    color: var(--background);
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+.lbl-defesa-desc {
+    font-size: 15px !important;
+}
+
+.lbl-armadura-nome {
+    font-size: 15px !important;
+}
+
+.lbl-armadura-defesa {
+    font-size: 15px !important;
+}
+
+.lbl-armadura-penalidade {
+    font-size: 15px !important;
+}
+
+.lbl-escudo-nome {
+    font-size: 15px !important;
+}
+
+.lbl-escudo-defesa {
+    font-size: 15px !important;
+}
+
+.lbl-escudo-penalidade {
+    font-size: 15px !important;
+}
+
+.lbl-dinheiro-total {
+    background-color: var(--primary-color);
+    color: var(--background);
+    margin-bottom: 0;
+}
+
+.lbl-dinheiro-poopup {
+    color: red;
+}
+
+.lbl-peso-total {
+    background-color: var(--primary-color);
+    color: var(--background);
+    margin-bottom: 0;
+}
+
+.lbl-pericias-header {
+    font-size: 10px !important;
+}
+
+.lbl-pericias-treino {
+    font-size: 16px !important;
+}
+
+.lbl-pericias-nome {
+    font-size: 16px !important;
+}
+
+.lbl-pericias-total {
+    text-align: center;
+    font-size: 16px !important;
+    color: var(--background);
+    background-color: var(--primary-color);
+    width: 24px;
+    border: 2px solid white;
+}
+
+.form-pontos {
+    margin: 0;
+    min-width: 50px;
+}
+
+.form-pericias-outros {
+    margin: 0;
+    padding: 0 10px;
+    font-weight: bold;
+    width: 55px;
+}
+
+.form-ataque-descricao, .form-magia-descricao, .form-habilidade-descricao {
+    resize: none;
+}
+
+.form-control-div-grupo {
+    background-color: var(--secondary-color);
+}
+
+.form-ataque-list:disabled, .form-magia-list:disabled, .form-item-list:disabled, .form-habilidade-list:disabled {
+    background-color: #292929;
+}
+
+.form-list-collapsed {
+    margin: 0;
+    padding: 0 6px;
+    height: 100%;
+}
+
+.btn-rolar-dado {
+    margin: auto;
+    width: 100%;
+}
+
+.btn-adicionar-item {
+    margin: auto 12px;
+    width: 100%;
+}
+
+.btn-adicionar-item-habilidade {
+    margin: auto;
+    width: 100%;
+}
+
+.btn-ataque-list, .btn-magia-list, .btn-item-list, .btn-habilidade-list {
+    background-color: var(--secondary-color);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.img-collapse {
+    margin: auto 0 auto 12px;
+    height: 25px;
+    width: 25px;
+}
+
+.img-rolar-dado {
+    margin: auto;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.popup-inner-ataque, .popup-inner-magia, .popup-inner-item, .popup-inner-habilidade, .popup-inner-rolar-dados, .popup-inner-dinheiro {
+    max-width: 800px;
+    max-height: 500px;
+    position: relative;
+    background-color: var(--background);
+    border: 4px dashed var(--primary-color);
+    padding: 10px 0;
+    overflow: auto;
+}
+
+.table-skills {
+    font-size: 12px;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    table-layout: auto;
+}
+
+.table-skills .td-pericias {
+    padding: 8px 0;
+}
+
+.table-skills .td-treino-cb {
+    padding: 8px 0 8px 0;
+}
+
+.table-skills .th-penalidade {
+    border-top: 1px solid var(--background);
+    border-right: 1px solid var(--background);
+    border-bottom: 1px solid var(--background);
+    border-left: 2px solid var(--primary-color);
+}
+
+.table-skills .th-rolar-dado {
+    border-top: 1px solid var(--background);
+    border-right: 2px solid var(--primary-color);
+    border-bottom: 1px solid var(--background);
+    border-left: 1px solid var(--background);
+}
+
+.table-skills .td-penalidade {
+    border-top: 2px solid var(--background);
+    border-right: 1px solid var(--background);
+    border-bottom: 1px solid var(--background);
+    border-left: 2px solid var(--primary-color);
+    padding: 8px 4px;
+}
+
+.table-skills .td-rolar-dado {
+    border-top: 2px solid var(--background);
+    border-right: 2px solid var(--primary-color);
+    border-bottom: 1px solid var(--background);
+    border-left: 1px solid var(--background);
+    padding: 10px 3px;
+}
+
+.table-skills .td-rolar-dado:hover {
+    cursor: pointer;
+    background-color: #292929;
+}
+
+.outer {
+    background-color: var(--primary-color);
+    margin: 20px;
+    padding: 10px 10px 0px 10px;
+}
+
+.inner {
+    width: 100%;
+    height: 2px;
+    margin: 0px auto;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.roll-dice-animation-div {
+    animation: roll-dice-animation-div 1s infinite;
+}
+
+.roll-dice-animation-label {
+    animation: roll-dice-animation-label 1s infinite;
+}
+
+@keyframes roll-dice-animation-div {
+    0% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(0deg) translate(2px, 1px);
+    }
+
+    10% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(36deg) translate(-1px, -2px);
+    }
+
+    20% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(72deg) translate(-3px, 0px);
+    }
+
+    30% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(108deg) translate(0px, 2px);
+    }
+
+    40% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(144deg) translate(1px, -1px);
+    }
+
+    50% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(180deg) translate(-1px, 2px);
+    }
+
+    60% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(216deg) translate(-3px, 1px);
+    }
+
+    70% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(252deg) translate(2px, 1px);
+    }
+
+    80% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(288deg) translate(-1px, -1px);
+    }
+
+    90% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(324deg) translate(2px, 2px);
+    }
+
+    100% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: rotate(360deg) translate(1px, -2px);
+    }
+}
+
+@keyframes roll-dice-animation-label {
+    0% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(2px, 1px);
+    }
+
+    10% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(-1px, -2px);
+    }
+
+    20% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(-3px, 0px);
+    }
+
+    30% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(0px, 2px);
+    }
+
+    40% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(1px, -1px);
+    }
+
+    50% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(-1px, 2px);
+    }
+
+    60% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(-3px, 1px);
+    }
+
+    70% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(2px, 1px);
+    }
+
+    80% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(-1px, -1px);
+    }
+
+    90% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(2px, 2px);
+    }
+
+    100% {
+        color: transparent;
+        text-shadow: 0 0 6px rgba(202, 56, 45, 0.5);
+        transform: translate(1px, -2px);
+    }
+}
+
+.combobox-atr {
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
+    margin: 7px;
+}
+
+/* Create custom checkbox for Perícias */
+.ckbox-pericias {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin: 0 0 0 15px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.ckbox-pericias input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    border: 1px solid var(--primary-color);
+    background-color: var(--background);
+}
+
+/* On mouse-over, add a background color */
+.ckbox-pericias:hover input~.checkmark {
+    background-color: var(--primary-color);
+}
+
+/* When the checkbox is checked, add another background color */
+.ckbox-pericias input:checked~.checkmark {
+    background-color: var(--background)
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.ckbox-pericias input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.ckbox-pericias .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
